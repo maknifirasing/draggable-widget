@@ -1,4 +1,4 @@
-import { Component, ElementRef, Renderer } from '@angular/core';
+import {Component, ElementRef, Renderer, Renderer2} from '@angular/core';
 var NgWidgetPlaceholder = /** @class */ (function () {
     function NgWidgetPlaceholder(_ngEl, _renderer) {
         this._ngEl = _ngEl;
@@ -86,7 +86,7 @@ var NgWidgetPlaceholder = /** @class */ (function () {
     /** @nocollapse */
     NgWidgetPlaceholder.ctorParameters = function () { return [
         { type: ElementRef, },
-        { type: Renderer, },
+        { type: Renderer2, },
     ]; };
     return NgWidgetPlaceholder;
 }());

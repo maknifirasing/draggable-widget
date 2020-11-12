@@ -120,4 +120,8 @@
     "test": "npm run build && karma start test/karma.conf.js"
   },
   "version": "1.0.20"
+
+,"_resolved": "git+https://github.com/maknifirasing/draggable-widget.git#74a02c457908e32727278f49791724305e46297f"
+,"_integrity": ""
+,"_from": "git+https://github.com/maknifirasing/draggable-widget.git"
 }

@@ -1,5 +1,5 @@
 import { NgWidgetContainer } from "./NgWidgetContainer";
-import { Directive, ElementRef, Renderer, EventEmitter, KeyValueDiffers, ViewContainerRef, Output } from '@angular/core';
+import { Directive, ElementRef, Renderer2, EventEmitter, KeyValueDiffers, ViewContainerRef, Output } from '@angular/core';
 /**
  *	inputs array instead of @input decorator for ionic compatibility
  */

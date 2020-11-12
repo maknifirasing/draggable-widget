@@ -91,7 +91,7 @@ var NgWidgetPlaceholder = /** @class */ (function () {
     /** @nocollapse */
     NgWidgetPlaceholder.ctorParameters = function () { return [
         { type: core.ElementRef, },
-        { type: core.Renderer, },
+        { type: core.Renderer2, },
     ]; };
     return NgWidgetPlaceholder;
 }());
